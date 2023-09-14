@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    min-height: 100vh;
+    border: 10px solid black;
+    background-color: antiquewhite;
+}
+.container{
+    /* border: 1px solid black; */
+    max-width: 900px;
+    margin: 0 auto;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.top{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    align-items: flex-end;
+}
+.image{
+    overflow: hidden;
+    /* filter: grayscale(1); */
+    border: 2px solid black;
+    border-radius: 50%; 
+}
+.image,img{
+    width: 300px;
+    height: 320px;
+}
+.image:hover{
+    /* filter: grayscale(0); */
+    transition: 1.1s;
+    transform: scale(1.12);
+    box-shadow: 0 0 20px black;
+}
+.top h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.top h4{
+    text-align: end;
+    font-size: 20px;
+}
+.content{
+    margin: 50px 0px;
+    /* border: 1px solid black; */
+    width: 100%;
+}
+.content h1{
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 50px;
+}
+.content p{
+    line-height: 1.5rem;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+    text-align: justify;
+}
+.biography{
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+}
+.biography h3{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.biography ul{
+    letter-spacing: 1.5px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+footer{
+    /* border: 1px solid black; */
+    font-size: 1.5rem;
+    margin: 30px 0;
+}
+footer p{
+    text-align: end;
+}

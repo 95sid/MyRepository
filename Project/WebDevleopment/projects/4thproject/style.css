@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.contaienr{
+    height: 100%;
+    /* border: 5px solid black; */
+
+}
+.landing{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-flow: wrap;
+}
+.landing img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.landing h1{
+    color: white;
+    margin-bottom:400px;
+    letter-spacing: 0.3rem;
+    transform: scale(1.5);
+    position: absolute;
+    font-weight: 500;
+    text-shadow: 0px 0px 10px white;
+}
+.landing span{
+    font-size: large;
+}
+.heading{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+.heading h1{
+    font-size: 3.4rem;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.5rem;
+    text-shadow: 0px 0px 10px gray;
+    padding: 100px 0;
+}
+.heading span{
+    font-size: 7.4rem;
+}
+.services{
+    display: grid;
+    width: 100%;
+    gap: 30px;
+    padding: 50px 100px;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+.app,.web,.ui{
+    /* border: 3px solid black; */
+    height: 400px;
+    width: 300px;
+    border-radius: 3%;
+}
+.services img{
+    width: 100%;
+    object-fit: cover;
+}
+figcaption{
+    margin-top: 15px;
+    width: 100%;
+    /* margin: 10px 10px; */
+}
+.caption{
+    width: 100%;
+}
+.caption h2{
+    font-weight: 500;
+    padding-left: 10px;
+}
+.caption p{
+    text-align:start;
+    width: 100%;
+    padding: 10px 10px;
+    max-width: 100%;
+}
+.app:hover{
+   transform: scale(1.1);
+   transition: 0.6s;
+   box-shadow: 0px 0px 10px black;
+}
+.web:hover{
+   transform: scale(1.1);
+   transition: 0.6s;
+   box-shadow: 0px 0px 10px black;
+}
+.ui:hover{
+   transform: scale(1.1);
+   transition: 0.6s;
+   box-shadow: 0px 0px 10px black;
+}
+.last_section{
+    width: 100%;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.about,.contact{
+    background-color: black;
+    color: whitesmoke;
+    padding: 20px 20px;
+}
+.end{
+    background-color: gray;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: large;
+    padding: 30px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+

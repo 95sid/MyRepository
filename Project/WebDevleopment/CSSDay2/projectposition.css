@@ -1,0 +1,21 @@
+.box{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: aliceblue;
+}
+#box2{
+    position: relative;
+    top: 100vh;
+    right: 110px;
+}
+#box3{
+    position: relative;
+    left: 100vh;
+}
+#box4{
+    position: relative;
+    top: 100vh;
+    left:80vh;
+}

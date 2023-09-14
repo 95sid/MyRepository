@@ -1,0 +1,58 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+}
+h1{
+    margin-bottom: 20px;
+}
+button{
+    padding: 10px;
+    margin: 10px     10px;
+    font-size: 2rem;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+p{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#Rock{
+    background-color: green;
+    transition: all .5s ease;
+}
+#Rock:hover{
+    background-color: rgb(3, 165, 3);
+    scale: 1.2;
+}
+#Paper{
+    background-color: red;
+    transition: all .5s ease;
+}
+#Paper:hover{
+    background-color: rgb(211, 69, 69);
+    scale: 1.2;
+}
+#Seasor{
+    background-color: yellow;
+    transition: all .5s ease;
+}
+#Seasor:hover{
+    background-color: rgb(199, 199, 21);
+    scale: 1.2;
+}
+#user-score{
+    color: green;
+}
+#computer-score{
+    color: red;
+}

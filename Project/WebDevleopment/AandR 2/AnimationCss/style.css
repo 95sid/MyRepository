@@ -1,0 +1,30 @@
+.container{
+    width: 100%;
+    height: 500px;
+    border: 2px solid red;
+    background-color: yellow;
+}
+.box{
+    border: 2px solid green;
+    background-color: aqua;
+    height: 212px;
+    width: 212px;
+    animation-timing-function: linear;
+    animation-name: practice;
+    animation-duration: 3s;
+    animation-iteration-count: 4;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+    /* transition: transform 3s linear 0.5s; */
+}
+/* .box:hover{
+    transform:rotate(45deg);
+} */
+@keyframes practice{
+    from{
+        width: 212px;
+    }
+    to{
+        width: 800px;
+    }
+}
