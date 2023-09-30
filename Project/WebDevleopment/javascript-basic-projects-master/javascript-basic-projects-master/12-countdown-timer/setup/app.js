@@ -26,7 +26,7 @@ const giveaway = document.querySelector(".giveaway");
 const deadline = document.querySelector(".deadline");
 const items = document.querySelectorAll(".deadline-format h4");
 console.log(items);
-let futureDate = new Date(2023, 8, 2, 23, 59);
+let futureDate = new Date(2023, 8, 30, 23, 59);
 
 giveaway.textContent = `Giveaway ends on ${
   weekdays[futureDate.getDay()]

@@ -4,7 +4,7 @@
     <!-- Meta information -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Lostify</title>
     <!-- Stylesheets -->
     <link rel="stylesheet" href="style.css" />
     <link
@@ -22,25 +22,7 @@
       <div id="home">
         <!-- Navigation -->
         <div id="nav">
-          <img
-            src="icon.jpg"
-            alt="logo"
-          />
-          <ul class="details">
-            <!-- Navigation links -->
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <a href="about.html">about</a>
-            </li>
-            <li>
-              <a href="projects.html">projects</a>
-            </li>
-            <li>
-              <a href="contact.html">contact</a>
-            </li>
-          </ul>
+          <img src="icon.jpg" alt="logo" />
           <div id="right">
             <i class="ri-menu-line"></i>
           </div>
@@ -61,25 +43,54 @@
           </div>
         </div>
         <!-- Additional content -->
-        <div id="homelast">
-          <p>
-            Our mission is to instill in communities a feeling of responsibility
-            and compassion.
-          </p>
-          <p>
-            We think that by assisting one another in recovering misplaced
-            objects, we can encourage confidence and kindness among peers and
-            strangers alike.
-          </p>
+        <!-- <div class="counter">
+          <div class = "stylecounter Regcounter">
+              <p>Lost Items Resistered</p>
+              <p class="count">2</p>
+          </div>
+          <div class = "stylecounter Losscounter">
+              <p>Item Returned</p>
+              <p class="count">2</p>
+          </div>
+        </div> -->
+        <div class="registor">
+          <h1 id="proceed-heading">Steps for Registration</h1>
+          <div class="proceed">
+            <div class="iconimages" id="notepad">
+              <img
+                src="./notepad.jpg"
+                height="100%"
+                alt="Notepad-Image"
+                class="icons"
+              />
+              <p>Add Description</p>
+            </div>
+
+            <div class="iconimages" id="camera">
+              <img
+                src="./camera.jpg"
+                height="100%"
+                alt="camera-Image"
+                class="icons"
+              />
+              <p>Click the Picture.</p>
+            </div>
+
+            <div class="iconimages" id="search">
+              <img
+                src="./search.jpg"
+                height="100%"
+                alt="search-image"
+                class="icons"
+              />
+              <p>Let's Search It</p>
+            </div>
+          </div>
         </div>
         <!-- Sidebar -->
         <aside class="sidebar">
           <div class="sidebar-header">
-            <img
-              src="icon.jpg"
-              class="logo"
-              alt=""
-            />
+            <img src="icon.jpg" class="logo" alt="" />
             <button class="close-btn">
               <i class="fas fa-times"></i>
             </button>
@@ -128,6 +139,197 @@
             </li>
           </ul>
         </aside>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col1">
+            <img src="./hero-bcg.jpeg" alt="about-us" />
+          </div>
+          <div class="about-col2">
+            <h4 class="subtitle">about us</h4>
+            <div class="tab-titles">
+              <div class="tab-links active-link" data-id="vision">Vision</div>
+              <div class="tab-links" data-id="mission">Mission</div>
+              <div class="tab-links" data-id="goals">Goals</div>
+            </div>
+            <div class="tab-content active-tab" id="vision">
+              <p>
+                I'm baby wolf pickled schlitz try-hard normcore marfa man bun
+                mumblecore vice pop-up XOXO lomo kombucha glossier bicycle
+                rights. Umami kinfolk salvia jean shorts offal venmo. Knausgaard
+                tilde try-hard, woke fixie banjo man bun. Small batch tumeric
+                mustache tbh wayfarers 8-bit shaman chartreuse tacos. Viral
+                direct trade hoodie ugh chambray, craft beer pork belly flannel
+                tacos single-origin coffee art party migas plaid pop-up.
+              </p>
+            </div>
+            <div class="tab-content" id="mission">
+              <p>
+                chambray, craft beer pork belly flannel tacos single-origin
+                coffee art party migas plaid pop-up.
+              </p>
+            </div>
+            <div class="tab-content" id="goals">
+              <p>
+                I'm baby wolf pickled schlitz try-hard normcore marfa man bun
+                mumblecore vice pop-up XOXO lomo kombucha glossier bicycle
+                rights. Umami kinfolk salvia jean shorts offal venmo. Knausgaard
+                tilde try-hard, woke fixie banjo man bun. Small batch tumeric
+                mustache tbh wayfarers 8-bit shaman chartreuse tacos. Viral
+                direct trade hoodie ugh chambray, craft beer pork belly flannel
+                tacos single-origin coffee art party migas plaid pop-up.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="questions">
+      <h2>General Questions</h2>
+      <article class="question">
+        <div class="question-title">
+          <p>Do you acceptAll major Cerdit Card?</p>
+          <button type="button" class="question-btn">
+            <span class="plus-icon">
+              <i class="far fa-plus-square"></i>
+            </span>
+            <span class="minus-icon">
+              <i class="far fa-minus-square"></i>
+            </span>
+          </button>
+        </div>
+        <div class="question-text">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+            mollitia reiciendis, quidem facilis similique nobis inventore autem
+            dolorem esse quibusdam!
+          </p>
+        </div>
+      </article>
+      <article class="question">
+        <div class="question-title">
+          <p>Do you Use organic ingredients?</p>
+          <button type="button" class="question-btn">
+            <span class="plus-icon">
+              <i class="far fa-plus-square"></i>
+            </span>
+            <span class="minus-icon">
+              <i class="far fa-minus-square"></i>
+            </span>
+          </button>
+        </div>
+        <div class="question-text">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+            mollitia reiciendis, quidem facilis similique nobis inventore autem
+            dolorem esse quibusdam!
+          </p>
+        </div>
+      </article>
+      <article class="question">
+        <div class="question-title">
+          <p>Do you Support Local Farmers?</p>
+          <button type="button" class="question-btn">
+            <span class="plus-icon">
+              <i class="far fa-plus-square"></i>
+            </span>
+            <span class="minus-icon">
+              <i class="far fa-minus-square"></i>
+            </span>
+          </button>
+        </div>
+        <div class="question-text">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+            mollitia reiciendis, quidem Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Magnam tenetur fugiat necessitatibus at! Explicabo
+            illum laboriosam optio mollitia odio molestias blanditiis numquam
+            sint veniam, ab dolorum id reprehenderit nam impedit! facilis
+            similique nobis inventore autem dolorem esse quibusdam!
+          </p>
+        </div>
+      </article>
+    </div>
+
+    <div class="reviews">
+      <div class="title">
+        <h2>Our Reviews</h2>
+        <div class="underline"></div>
+      </div>
+      <article class="review">
+        <div class="img-container">
+          <img src="./person-1.jpeg" id="person-img" alt="" />
+        </div>
+        <h4 id="author">Sara Jones</h4>
+        <p id="job">Ux Designer</p>
+        <p id="info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+          excepturi rerum fugiat aperiam illo modi placeat nostrum dolore
+          mollitia facere laudantium eos magni, molestiae, reiciendis tempore
+          nihil ipsa! Ipsam, natus.
+        </p>
+        <div class="button-container">
+          <button class="prev-btn">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="next-btn">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+        <button class="random-btn">Surprise</button>
+      </article>
+    </div>
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="subtitle">Contact Us</h1>
+            <p><i class="fas fa-paper-plane"></i>contact@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt"></i>0123456789</p>
+            <div class="socail-icons">
+              <a href="https://www.twitter.com">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.twitter.com">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://www.twitter.com">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+              <a href="https://www.twitter.com">
+                <i class="fab fa-behance"></i>
+              </a>
+              <a href="https://www.twitter.com">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input
+                type="text"
+                name="Name"
+                placeholder="Enter Your Name"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter Email"
+                required
+              />
+              <input name="message" placeholder="Your message.." required />
+              <button type="submit" class="btn-submit">Submit</button>
+            </form>
+            <div id="msg">
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- Scripts -->
